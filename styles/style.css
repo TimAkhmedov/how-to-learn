@@ -17,6 +17,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-color: #f2f2f2;
 }
 
 .header__left_side {
@@ -26,7 +27,7 @@
 }
 
 .logo {
-  border: 1px solid red;
+
 }
 
 .logo_place_header {
@@ -71,12 +72,13 @@ color:  #2f80ed;
   bottom: 0;
   width: 765px;
   height: 608px;
+  z-index: 2;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   top: 64px;
   right: 0;
   background-color:  #2f80ed;
