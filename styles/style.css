@@ -125,7 +125,6 @@ color:  #2f80ed;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  /* margin: 0 auto; /* свойство .two_columns__paragraph-p */
 }
 
 .two_columns__paragraph-p {
@@ -134,19 +133,15 @@ color:  #2f80ed;
 
 .two_columns__paragraph-p-span {
   margin: 30px auto;
-  /* font-weight: bold; */
 }
 
 .two_columns__span {
-  /* line-height: 34px;
-  font-size: 24px; */
   font-weight: bold;
   margin: 30px auto;
 
 }
 
 .digits {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -181,13 +176,11 @@ color:  #2f80ed;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  border: 1px solid red;
   margin: 0 auto 100px auto;
   padding: 0;
 }
 
 .table__cell {
-  border: 1px solid red;
   display: flex;
   width: 250px;
   flex-direction: column;
