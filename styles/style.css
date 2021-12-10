@@ -86,16 +86,19 @@ color:  #2f80ed;
   width: 568px;
 }
 
-.description {
-  border: 1px solid red;
+.content {
   display: flex;
-  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.description {
+  display: flex;
   justify-content: space-between;
   flex-direction: column; 
 }
 
 .two_columns {
-  border: 1px solid red;
   width: 80%;
   min-width: 784px;
   margin: 100px 0;
@@ -122,7 +125,7 @@ color:  #2f80ed;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  /* margin: 0 auto; /* .two_columns__paragraph-p */
+  /* margin: 0 auto; /* свойство .two_columns__paragraph-p */
 }
 
 .two_columns__paragraph-p {
@@ -140,6 +143,75 @@ color:  #2f80ed;
   font-weight: bold;
   margin: 30px auto;
 
+}
+
+.digits {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digits__title {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.digits__subtitle {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  margin: 0 auto 100px auto;
+  padding: 0;
+}
+
+.table__cell {
+  border: 1px solid red;
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  list-style-type: none;
+  margin-top: 60px;
+}
+
+.table__head {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  left: 0;  
+  margin: 0;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0;
+}
+
+.table__text-author {
+  margin: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
