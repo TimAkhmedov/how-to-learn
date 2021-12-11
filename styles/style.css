@@ -328,3 +328,61 @@ color:  #2f80ed;
   position: absolute;
   right: -210px;
 }
+
+.footer {
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__columns {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid green;
+}
+
+.footer__column_copyright {
+  flex-basis: 711px;
+  border: 1px solid red;
+}
+
+.logo_place_footer {
+  border: 1px solid red;
+  width: 183px;
+  height: 35px;
+}
+
+.footer__author {
+  border: 1px solid red;
+
+}
+
+.footer__column_info {
+  border: 1px solid red;
+
+}
+
+.footer__column-heading {
+
+  border: 1px solid red;
+}
+
+.footer__column-links {
+  border: 1px solid red;
+
+}
+
+.footer__column-link {
+
+  border: 1px solid red;
+}
+
+.footer__social-icon {
+  
+}
+
+.footer__column_social {
+
+  border: 1px solid red;
+}
