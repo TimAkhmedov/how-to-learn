@@ -261,6 +261,7 @@ color:  #2f80ed;
   font-weight: bold;
   color: white;
   z-index: 1;
+  text-align: center;
 }
 
 .kaufman__subtitle_theme_dark {
