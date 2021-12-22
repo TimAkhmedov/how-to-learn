@@ -29,14 +29,11 @@
 
 .header__title {
   align-self: center;
-  display: flex;
   font-size: 102px;
   font-weight: bold;
-  left: 64px;
   line-height: 96px;
-  margin: 0;
+  margin: 0 0 0 64px;
   max-width: 730px;
-  position: absolute;
   z-index: 2;
 }
 
@@ -349,7 +346,7 @@
 }
 
 .footer__column-link {
-  color: #2f80ed;
+  color: #f2f2f2;
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
