@@ -14,6 +14,7 @@
   min-height: 600px;
   max-height: 756px;
   position: relative;
+  overflow: hidden; 
 }
 
 .logo {
@@ -72,7 +73,17 @@
   top: 64px;
   width: 568px;
   z-index: 0;
+  animation: rotation 20s linear infinite;
 }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+    to {
+      transform: rotate(360deg);
+    }
+};
 
 /* Description */
 
@@ -86,6 +97,7 @@
   display: flex;
   justify-content: space-between;
   width: 80%;
+  margin: 0 auto;
 }
 
 .two-columns__brief {
@@ -117,6 +129,83 @@
 
 .two-columns__span-accent {
   font-weight: bold;
+}
+
+/* Techniques */
+
+.cards {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 60px 0 0;
+  width: 920px;
+  gap: 60px 100px;
+}
+
+.cards__item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 240px;
+}
+
+.cards__image {
+  height: 160px;
+  margin: 0 40px;
+  width: 160px;
+}
+
+.cards__title {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 43px 0 16px;
+}
+
+.cards__description {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  text-align: center;
+}
+
+/* Video */
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 100px 0 0;
+}
+
+.video__iframes {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  position: relative;
+  margin: 0 auto;
+  gap: 20px;
+  top: 50px;
+}
+
+/*.video__iframe {
+}*/
+
+/* Oakley */
+
+.oakley {
+  display: flex;
+  justify-content: center;
+  padding: 160px 0 0;
+  background-color: #f2f2f2;
 }
 
 /* Digits */
@@ -179,6 +268,75 @@
   font-weight: normal;
   line-height: 1.2;
   margin: 20px 0 0;
+}
+
+/* Khan */
+
+.khan {
+  background-color: #f2f2f2;
+  padding: 105px 0 0;
+  position: relative;
+}
+
+.khan__container {
+  
+  margin: 0 auto;
+  width: 80%;
+}
+
+.khan__author {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 42px;
+  margin: 0;
+  padding: 0;
+}
+
+.khan__title {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+}
+
+.khan__quote {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  margin: 50px 0 36px 0;
+  width: 790px;
+}
+
+.khan__quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.khan__quote-author-subline {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.15;
+  margin: 10px 0 68px;
+}
+
+.khan__book-container {
+  display: flex;
+  gap: 48px;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+}
+
+.khan__buy-link {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 42px;
+  text-decoration: none;
 }
 
 /* Feynman */
@@ -361,4 +519,14 @@
 .footer__column_content_social {
   flex-wrap: wrap;
   height: fit-content;
+}
+
+.techniques {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 100px 0 0;
+  width: 80%;
 }
