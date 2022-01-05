@@ -1,6 +1,6 @@
 .footer__column {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-  }
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
